@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background: black;
+    box-shadow: 0px 5px 10px rgba(226, 16, 16, 0.525);
+}
+
+.logo {
+    display: flex;
+    font-size: 60px;
+    font-weight: 700;
+    color: rgb(124, 16, 202);
+}
+
+.logo img {
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+}
+
+nav {
+    position: absolute;
+    right: 0;
+    padding: 2px 20px;
+}
+
+nav ul {
+    font-size: 20px;
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.vupad {
+    font-size: 20px;
+    background: black;
+    color: white;
+    outline: none;
+    border: none;
+    transition: all 0.5s ease;
+}
+
+.vupad:hover {
+    color: rgb(78, 24, 184);
+}
+
+option {
+    color: white;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    transition: all 0.5s ease;
+}
+
+nav a:hover {
+    color: rgb(78, 24, 184);
+}
+
+.fon {
+    background-image: url(https://cdn.minecraftrating.ru/storage/servers/166910/58f25d341bad5788ac36c2747_big.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: auto 2fr;
+    gap: 200px;
+}
+
+img {
+    width: 500px;
+    height: 500px;
+}
+
+.monitoring {
+    color: #ffffff;
+    text-align: center;
+    width: 500px;
+    font-size: 40px;
+}
+
+.btns {
+    display: grid;
+    grid-template-rows: auto auto;
+}
+
+.btn-server {
+    padding: 10px 20px;
+    width: 150px;
+    background: yellow;
+    color: blue;
+    border-radius: 5px;
+    border: #333 1px solid;
+    transition: all 0.5s ease;
+}
+
+.btn-server:hover{
+    transform: scale(1.1);
+    background: red;
+    color: #000;
+}
+
+.btn{
+    padding: 10px 20px;
+    width:250px;
+    background: blueviolet;
+    color: white;
+    border-radius: 5px;
+    border: #333 1px solid;
+    transition: all 0.5s ease;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+    background: rgb(14, 216, 62);
+    color: rgb(54, 76, 54);
+  
+}
+
+footer{
+    height: 35vh;
+    background-color: black;
+    color: white;
+}
+
+span{
+    font-size: 50px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  transition:all 0.5s ease ;
+}
+
+span:hover{
+color:royalblue;
+}
